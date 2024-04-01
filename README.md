@@ -47,10 +47,10 @@ cd coin-nest
 #instale as dependências de desenvolvimento
 sudo npm install
 
+#!!! RENOMEIE A URL BASE DO ARQUIVO 'api.st' NA PASTA 'services' PARA 'localhost:3000' !!!
+
 #execute o projeto
 npm run dev
-
-#!!! CERTIFIQUE-SE QUE O PROJETO ESTÁ RODANDO NA PORTA 3000 !!!
 ```
 
 <h1>
