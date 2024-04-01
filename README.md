@@ -30,12 +30,6 @@
     TailwindCSS;<br/>
     NextJS;<br/>
     MirageJS;<br/>
-    Deploy via Vercel;<br/>
     React Icons;
 </p>
 
-<h1>
-    <a href="https://github-repo-searcher-liart.vercel.app/">
-        Utilize a aplicação
-    </a>
-</h1>
