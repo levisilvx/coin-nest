@@ -18,7 +18,7 @@
 </h1>
 
 <p>
-    O projeto nasceu da minha necessidade de masterizar o gerenciamento de estado do ReactJS, além de me ensinar conceitos valiosos de mock de API, com o MirageJS, pop-ups em tela com o React Modal e partilhar um mesmo conjunto de informações com diferentes componentes utilizando useContext.
+    O projeto nasceu da minha necessidade de masterizar o gerenciamento de estado do ReactJS, além de me ensinar conceitos valiosos como: de mock de API com o MirageJS, pop-ups em tela com o React Modal e partilhar um mesmo conjunto de informações para diferentes componentes utilizando useContext.
 </p>
 
 <h1>
