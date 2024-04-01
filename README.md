@@ -1,5 +1,5 @@
 <h1>
-    COIN.NEST
+    coin.nest
 </h1>
 
 <img src="https://ik.imagekit.io/blhmmigq8/Captura%20de%20tela%20de%202024-04-01%2014-48-28.png?updatedAt=1711994067130">
