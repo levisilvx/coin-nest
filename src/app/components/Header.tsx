@@ -2,17 +2,23 @@
 
 import { Logo } from "./Logo";
 
-export function Header() {
+interface HeaderProps {
+  onOpenNewTransactionModal: () => void;
+}
+
+export function Header({onOpenNewTransactionModal}: HeaderProps) {
   return (
-    <header className="bg-gradient-to-r from-blue-900 to-indigo-700 p-2 pb-32 shadow-lg">
-        <div className="flex flex-row justify-between items-center mx-72">
+    <header className="bg-gradient-to-r from-blue-900 to-indigo-700 pt-20 pb-32 shadow-md">
+        <div className="flex flex-row justify-between items-center px-52">
           <Logo />
           <div>
             <button
-              className="p-3 px-11 mt-12 font-bold text-md text-zinc-100 rounded-md
-                 bg-indigo-600 border-indigo-500 
-                 hover:bg-indigo-500 hover:border-indigo-400 transition-all"
-              type="button">
+              className="p-3 px-11
+                font-bold text-md rounded-md
+                bg-indigo-600 text-zinc-100 
+                hover:brightness-110 transition-all"
+              type="button"
+              onClick={onOpenNewTransactionModal}>
               Nova Transação
             </button>
           </div>
