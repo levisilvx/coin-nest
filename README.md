@@ -32,4 +32,26 @@
     MirageJS;<br/>
     React Icons;
 </p>
+<h1>
+    Utilize a aplicação:
+</h1>
+
+```bash
+#clone o repositório
+git clone https://github.com/levisilvx/coin-nest.git
+
+#entre na pasta do projeto clonado
+cd coin-nest
+
+#instale as dependencias de desenvolvimento
+sudo npm install
+
+#execute o projeto
+npm run dev
+
+#!!! CERTIFIQUE-SE QUE O PROJETO ESTÁ RODANDO NA PORTA 3000 !!!
+```
+
+
+
 
