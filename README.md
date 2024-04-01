@@ -43,7 +43,7 @@ git clone https://github.com/levisilvx/coin-nest.git
 #entre na pasta do projeto clonado
 cd coin-nest
 
-#instale as dependencias de desenvolvimento
+#instale as dependências de desenvolvimento
 sudo npm install
 
 #execute o projeto
