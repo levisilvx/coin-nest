@@ -30,10 +30,11 @@
     TailwindCSS;<br/>
     NextJS;<br/>
     MirageJS;<br/>
+    Deploy via Vercel;<br/>
     React Icons;
 </p>
 <h1>
-    Utilize a aplicação:
+    Clone o projeto:
 </h1>
 
 ```bash
@@ -52,6 +53,10 @@ npm run dev
 #!!! CERTIFIQUE-SE QUE O PROJETO ESTÁ RODANDO NA PORTA 3000 !!!
 ```
 
-
+<h1>
+    <a href="">
+        Utilize a aplicação:
+    </a>
+</h1>
 
 
