@@ -1,14 +1,24 @@
 <h1>
-    coin.nest
+    COIN.NEST
 </h1>
 
-<img src="https://ik.imagekit.io/blhmmigq8/Captura%20de%20tela%20de%202024-02-26%2013-31-41.png?updatedAt=1708966020539">
+<img src="https://ik.imagekit.io/blhmmigq8/Captura%20de%20tela%20de%202024-04-01%2014-48-28.png?updatedAt=1711994067130">
+<img src="https://ik.imagekit.io/blhmmigq8/Captura%20de%20tela%20de%202024-04-01%2014-49-18.png?updatedAt=1711994065973">
+<img src="https://ik.imagekit.io/blhmmigq8/Captura%20de%20tela%20de%202024-04-01%2014-50-11.png?updatedAt=1711994067412">
 
 <h1>
     Início:
 </h1>
 <p>
-    O projeto expõe meus primeiros passos com o desenvolvimento front-end, ele consiste numa requisição estática à api do github e recebe os repositórios criados pelo usuário pesquisado.
+    O coin.nest consiste numa plataforma de planejamento de gastos, onde o usuário pode informar cada um de seus saques e depósitos, com isso, a plataforma os listará e apresentará um breve resumo do cálculo de finanças.
+</p>
+
+<h1>
+    Intuito do projeto:
+</h1>
+
+<p>
+    O projeto nasceu da minha necessidade de masterizar o gerenciamento de estado do ReactJS, além de me ensinar conceitos valiosos de mock de API, com o MirageJS, pop-ups em tela com o React Modal e partilhar um mesmo conjunto de informações com diferentes componentes utilizando useContext.
 </p>
 
 <h1>
@@ -19,7 +29,7 @@
     TypeScript;<br/>
     TailwindCSS;<br/>
     NextJS;<br/>
-    Github API;<br/>
+    MirageJS;<br/>
     Deploy via Vercel;<br/>
     React Icons;
 </p>
