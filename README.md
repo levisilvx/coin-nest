@@ -30,8 +30,6 @@
     TailwindCSS;<br/>
     NextJS;<br/>
     MirageJS;<br/>
-<<<<<<< HEAD
-    React Icons;
 </p>
 
 <h1>
