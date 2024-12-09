@@ -30,11 +30,19 @@
     TailwindCSS;<br/>
     NextJS;<br/>
     MirageJS;<br/>
+<<<<<<< HEAD
     React Icons;
 </p>
 
 <h1>
     Utilize a aplicação:
+=======
+    Deploy via Vercel;<br/>
+    React Icons;
+</p>
+<h1>
+    Clone o projeto:
+>>>>>>> 12a75f4610e4cec31695bcde00750fda1b437ed6
 </h1>
 
 ```bash
@@ -47,8 +55,24 @@ cd coin-nest
 #instale as dependências de desenvolvimento
 sudo npm install
 
+<<<<<<< HEAD
 #execute o projeto
 npm run dev
 
 #!!! CERTIFIQUE-SE QUE O PROJETO ESTÁ RODANDO NA PORTA 3000 !!!
 ```
+=======
+#!!! RENOMEIE A URL BASE DO ARQUIVO 'api.st' NA PASTA 'services' PARA 'localhost:3000' !!!
+
+#execute o projeto
+npm run dev
+```
+
+<h1>
+    <a href="https://coin-nest.vercel.app">
+        Utilize a aplicação:
+    </a>
+</h1>
+
+
+>>>>>>> 12a75f4610e4cec31695bcde00750fda1b437ed6
