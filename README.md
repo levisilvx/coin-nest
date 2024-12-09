@@ -30,17 +30,14 @@
     TailwindCSS;<br/>
     NextJS;<br/>
     MirageJS;<br/>
+    Deploy via Vercel;<br/>
 </p>
 
 <h1>
-    Utilize a aplicação:
-=======
-    Deploy via Vercel;<br/>
-    React Icons;
-</p>
+    <a href="https://coin-nest.vercel.app/">Utilize a aplicação:</a>
+</h1>
 <h1>
     Clone o projeto:
->>>>>>> 12a75f4610e4cec31695bcde00750fda1b437ed6
 </h1>
 
 ```bash
