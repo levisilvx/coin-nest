@@ -6,7 +6,7 @@ export function TransactionsTable() {
   const { transactions } = useTransactions();
 
   return (
-    <div className="relative overflow-x-auto mx-72 mt-10">
+    <div className="relative overflow-x-auto md:mx-72 mt-10">
       <div className="flex flex-col ">
         <div className="overflow-x-auto">
           <div className="block min-w-full py-2">

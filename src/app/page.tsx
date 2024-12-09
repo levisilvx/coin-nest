@@ -74,7 +74,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className="">
       <TransactionsProvider>
         <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
         <Summary />

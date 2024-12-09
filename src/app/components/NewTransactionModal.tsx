@@ -41,7 +41,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
     <Modal
       isOpen={isOpen}
       onRequestClose={onRequestClose}
-      className=" bg-zinc-100 p-14 rounded-md w-auto h-auto relative"
+      className=" bg-zinc-100 py-14 px-8 rounded-md w-screen sm:w-[40rem] h-auto relative"
       overlayClassName="bg-black bg-opacity-50
         fixed top-0 left-0 right-0 bottom-0 w-full h-full 
         flex flex-row justify-center items-center"
@@ -57,7 +57,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
       <form 
         onSubmit={handleCreateNewTransaction}
         className='flex flex-col justify-center items-start gap-3'>
-        <p className='text-3xl font-semibold text-zinc-600 mb-3'>
+        <p className='text-2xl font-semibold text-zinc-600 mb-3'>
           Cadastrar Transação
         </p>
 
@@ -66,7 +66,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
           placeholder='Título'
           value={title}
           onChange={event => setTitle(event.target.value)}
-          className='p-3 leading-10 rounded-md w-[32rem] bg-zinc-200'
+          className='p-3 leading-10 rounded-md bg-zinc-200 w-full'
         />
 
         <input
@@ -74,16 +74,18 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
           placeholder='Valor'
           value={amount}
           onChange={event => setAmount(Number(event.target.value))}
-          className='p-3 leading-10 rounded-md w-[32rem] bg-zinc-200'
+          className='p-3 leading-10 rounded-md bg-zinc-200 w-full'
         />
 
-        <div className='flex flex-row justify-between gap-2 w-[32rem]
-          font-semibold text-zinc-500'>
+        <div 
+          className='flex flex-row justify-between gap-2
+          font-semibold text-zinc-500 w-full'
+        >
           <button
             type="button"
             onClick={() => { setType('deposit') }}
             className={`flex flex-row justify-center items-center gap-2
-              w-[16rem] h-14 rounded-md leading-10
+              px-8 h-14 rounded-md leading-10 w-full
               border-zinc-300 border 
               hover:border-emerald-500 transition-all
               ${type === 'deposit' ? "bg-emerald-500 text-white" : ''}`}
@@ -100,7 +102,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
             type="button"
             onClick={() => { setType('withdraw') }}
             className={`flex flex-row justify-center items-center gap-2
-              w-[16rem] h-14 rounded-md leading-10
+              px-8 h-14 rounded-md leading-10 w-full
               border-zinc-300 border
               hover:border-rose-500 transition-all
               ${type === 'withdraw' ? "bg-rose-500 text-white" : ''}`}
@@ -119,14 +121,14 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
           placeholder='Categoria'
           value={category}
           onChange={event => setCategory(event.target.value)}
-          className='p-3 leading-10 rounded-md w-[32rem] bg-zinc-200'
+          className='p-3 leading-10 rounded-md bg-zinc-200 w-full'
         />
 
         <button
           type="submit"
           className='p-3 bg-emerald-500 leading-10 rounded-md 
-            hover:brightness-110 transition-all
-            w-[32rem] text-white font-bold'
+            hover:brightness-110 transition-all w-full
+           text-white font-bold'
         >
           Cadastrar
         </button>

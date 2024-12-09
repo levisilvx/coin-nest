@@ -8,9 +8,9 @@ interface HeaderProps {
 
 export function Header({onOpenNewTransactionModal}: HeaderProps) {
   return (
-    <header className="bg-gradient-to-r from-blue-900 to-indigo-700 pt-20 pb-32 shadow-md">
-        <div className="flex flex-row justify-between items-center px-52">
-          <Logo />
+    <header className="bg-gradient-to-r from-blue-900 to-indigo-700 sm:pt-20 pt-10 pb-32 shadow-md w-full border-0">
+        <div className="flex flex-col md:flex-row gap-6 justify-between items-center lg:px-52 md:px-32 ">
+          <Logo/>
           <div>
             <button
               className="p-3 px-11
