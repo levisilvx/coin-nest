@@ -57,10 +57,3 @@ sudo npm install
 #execute o projeto
 npm run dev
 ```
-
-<h1>
-    <a href="https://coin-nest.vercel.app">
-        Utilize a aplicação:
-    </a>
-</h1>
-
