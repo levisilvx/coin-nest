@@ -54,7 +54,7 @@ sudo npm install
 npm run dev
 
 #!!! CERTIFIQUE-SE QUE O PROJETO ESTÁ RODANDO NA PORTA 3000 !!!
-```
+
 =======
 #!!! RENOMEIE A URL BASE DO ARQUIVO 'api.st' NA PASTA 'services' PARA 'localhost:3000' !!!
 
