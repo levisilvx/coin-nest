@@ -50,7 +50,6 @@ cd coin-nest
 #instale as dependências de desenvolvimento
 sudo npm install
 
-<<<<<<< HEAD
 #execute o projeto
 npm run dev
 
